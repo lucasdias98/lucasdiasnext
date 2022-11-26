@@ -5,19 +5,19 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>PETSHOP com Next</title>
+        <title> DIAS PETSHOP </title>
       </Head>
-      <h1>Usando NextJS</h1>
+      <h1>NextJS</h1>
       <h2>{process.env.NEXT_PUBLIC_API_URL}</h2>
-      <Link href="/sobre">Sobre...</Link>
+      <Link href="/sobre">Sobre</Link>
       <br />
-      <Link href="/CSR">CSR...</Link>
+      <Link href="/CSR">CSR</Link>
       <br />
-      <Link href="/SSR">SSR...</Link>
+      <Link href="/SSR">SSR</Link>
       <br />
-      <Link href="/SSG">SSG...</Link>    
+      <Link href="/SSG">SSG</Link>    
       <br />
-      <Link href="/ISR">ISR...</Link>        
+      <Link href="/ISR">ISR</Link>        
 
     </div>
   )

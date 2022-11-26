@@ -1,7 +1,7 @@
 function SSR({ clientes }) {
     return (
         <div>
-            <h1>Aprendendo NextJS - CSR</h1>
+            <h1>PETSHOP - CSR</h1>
             <table>
                 <thead>
                     <tr>
